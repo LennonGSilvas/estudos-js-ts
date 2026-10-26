@@ -82,7 +82,12 @@ form button:active {
   background: var(--primary-color-darker);
 }
 
-.mensagem-resultado {
+.mensagem-resultado,
+.bad {
   background: rgb(63, 228, 63);
   padding: 10px 20px;
+}
+
+.bad {
+  background: rgb(250, 63, 63);
 }
